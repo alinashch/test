@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - preConditions:
+      - dbms:
+          type: postgresql
+  - includeAll:
+      path: migrations
+      relativeToChangelogFile: true
